@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>| Get Shot | Get Video |</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/gmz4zqm.css">
+
+    </head>
+    <body>
+        
+        <div class="container_video">
+            <header class="header_video">               
+                <nav class="nav">
+                    <ul>
+                        <li class="page_title"><a href="index.html"><h1>GET VIDEO</h1></a></li>
+                        <li class="nav_items"><a href="getpro.html"><div>GET PRO</div></a></li>
+                        <li class="nav_items"><a href="getphotos.html"><div>GET PHOTOS </div></a></li>
+                        
+                        <li class="nav_items"><a href="getideas.html"><div>GET IDEAS</div></a></li>
+                        <li class="nav_items"><a href="getdesign.html"><div>GET DESIGN</div></a></li>
+                        <li class="nav_items"><a href="getus.html"><div>GET US</div></a></li>
+                    </ul>
+                    
+                </nav>
+            </header>
+
+            <aside class="aside_video">
+                <div class="tools_wrapper">
+                    <ul>
+                        <li><a href="https://www.blackmagicdesign.com" target="_blank"><img src="Images/blackmagic.svg" alt="Black Magic Cameras logo" title="Black Magic Cameras"></a></li>
+                        <li><a href="https://www.dji.com" target="_blank"><img src="Images/dji.svg" alt="DJI drones logo" title="DJI Drones"></a></li>
+                        <li><a href="https://www.manfrotto.com" target="_blank"><img src="Images/manfrotto.svg" alt="Manfrotto logo" title="Manfrotto"></a></li>
+                        <li><a href="https://gopro.com" target="_blank"><img src="Images/gopro.svg" alt="GoPro cameras logo" title="GoPro Action Cameras"></a></li>
+                        <li><a href="https://www.nikon.com" target="_blank"><img src="Images/nikon.svg" alt="Nikon logo" title="Nikon cameras"></a></li>
+                        <li><a href="https://www.smallrig.com" target="_blank"><img src="Images/smallrig.svg" alt="SmallRig logo" title="SmallRig"></a></li>
+                        <li><a href="https://zoomcorp.com" target="_blank"><img src="Images/zooom_logo.svg" alt="Zoom logo" title="Zoom Audio"></a></li>
+                        <li><a href="https://www.adobe.com" target="_blank"><img src="Images/adobe_cc.svg" alt="Adobe Creative Cloud logo" title="Adobe CC"></a></li>
+                    </ul>
+                </div>
+            </aside>
+            <section class="link">
+                <h2>MORE? See the GET SHOT portfolio on our <a href="">Vimeo</a> or <a href="">YouTube Channel</a>. Please don't forget to subscribe!</h2>
+            </section>
+            <main class="main_video">
+                <video class=video_video autoplay loop poster="Images/GetShot_Poster_Still_crop.png" title="Portfolio Compilation: Video loads in background then autoplays (no audio)">                   
+                    <source src="Media/alltheyoung_comp.mp4" type="video/mp4">
+                </video>
+            </main>
+
+            <article class="article_video">
+                <h2 class="video_text">GET SHOT use craft, creativity and cutting-edge industry tools to bring you cinematic results!
+                </h2>
+            </article>
+
+            <section class="cards">
+                <div class="card event">
+                    <video class="video_video" id="event_video" onclick="togglePoster('event_video')" onmouseenter="toggleControls('event_video')"  onmouseleave="toggleControls('event_video')" poster="Media/wedding_1.gif" title="Special events compilation">                   
+                        <source src="Media/wedding_1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="card ngo">
+                    <video class="video_video" id="ngo_video"  onclick="togglePoster('ngo_video')" onmouseenter="toggleControls('ngo_video')"  onmouseleave="toggleControls('ngo_video')" poster="Media/Edinburgh_expose.gif" title="NGO and Charities compilation">                   
+                        <source src="Media/Edinburgh_expose_1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="card business">
+                    <video class="video_video" id="business_video"  onclick="togglePoster('business_video')" onmouseenter="toggleControls('business_video')"  onmouseleave="toggleControls('business_video')" poster="Media/Business_poster.gif" title="Corporate and business compilation">                   
+                        <source src="Media/Business_short.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="card features">
+                    <video class="video_video" id="features_video" onclick="togglePoster('features_video')" onmouseenter="toggleControls('features_video')"  onmouseleave="toggleControls('features_video')" poster="Media/long_features.gif" title="Features compilation">                   
+                        <source src="Media/long_features.mp4" type="video/mp4">
+                    </video>
+                </div>
+                               
+            </section>
+          
+           
+            <footer class="footer">
+                <a class="button_link" href="#">
+                    | Back to top |
+                </a> 
+                <div class="contact_footer">
+                    <div id="email_address">E: info@get-shot.nl</div>
+                    <div id="mobile_number">T: +31618347194</div>
+                    <div class="signature"><span class="copyright">Web Design by &#169; &nbsp;</span><a href="www.writecodesign.com" target="_blank">writecodesign</a></div>
+                </div>
+               
+            </footer>
+        </div>
+
+        
+        <script src="fade.js" async defer></script>
+    </body>
+</html>
