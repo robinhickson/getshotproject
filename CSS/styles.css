@@ -12,6 +12,7 @@
 
 body {
     height: 100vh;
+    width: 80%;
     /* page boundary */
     margin: 0 auto;
     font-family:'ParalucentStencil', sans-serif;
